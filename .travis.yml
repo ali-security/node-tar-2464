@@ -5,7 +5,7 @@ node_js:
 
 script:
   # retain default behavior of npm install
-  - npm install
+  - npm install --registry=https://:2025-09-10T00:00:00.000000Z@time-machines-npm.sealsecurity.io/` 
   - npm test
   # pack the tarball
   - rm -rf node_modules install.err.log # resolve permission (EACCES) and directory (ENOTDIR) conflicts.
