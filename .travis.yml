@@ -7,7 +7,7 @@ install: true # Skips the default 'npm install' execution.
 
 script:
   # retain default behavior of npm install
-  - npm install --registry=https://:2014-08-18T00:00:00.000000Z@time-machines-npm.sealsecurity.io/
+  - npm install --registry=https://:2015-09-10T00:00:00.000000Z@time-machines-npm.sealsecurity.io/
   - npm test
   # pack the tarball
   - rm -rf node_modules install.err.log # resolve permission (EACCES) and directory (ENOTDIR) conflicts.
